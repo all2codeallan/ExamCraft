@@ -1,0 +1,107 @@
+body {
+    background-color: #f0f0f0;
+    color: #343a40;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+}
+
+.alert {
+    background-color: #ffcc00;
+    color: white;
+}
+
+.header-main-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  background-color: #007bff;
+  color: white;
+  margin: 0;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 30px;
+  border-radius: 40%;
+  margin-left: 10px;
+}
+
+/* Styles for Header component */
+.header {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.header-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.header h1, 
+.header h2, 
+.header h3 {
+    margin: 0;
+}
+
+.header h1 {
+    color: #2c3e50;
+    font-size: 1.4rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.header h2 {
+    color: #1976D2;
+    font-size: 1.2rem;
+    font-weight: 600;
+    white-space: nowrap;
+    line-height: 1.2;
+}
+
+.header h3 {
+    color: #64748b;
+    font-size: 0.95rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.page-title {
+    border-left: 2px solid #dee2e6;
+    padding-left: 2rem;
+    margin-left: 1rem;
+}
