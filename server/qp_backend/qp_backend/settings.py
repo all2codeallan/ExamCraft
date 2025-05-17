@@ -167,4 +167,4 @@ EMAIL_HOST_USER = 'godlleague20@gmail.com'
 EMAIL_HOST_PASSWORD = 'aujz bmhg pzbv mvnr'
 
 # Gemini AI Configuration
-GEMINI_API_KEY = 'AIzaSyCVncBZonvAMMgMxe3b0vzSAh8gLlq0cqM'  # Replace with your actual key
+GEMINI_API_KEY = 'Placeholder_for_Gemini_API_Key'  # Replace with your actual key
